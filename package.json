@@ -1,0 +1,28 @@
+{
+  "name": "busqueda-y-rescate",
+  "version": "1.0.0",
+  "description": "Compilaciòn de las noticias mas relevantesnpm",
+  "main": "index.js",
+  "scripts": {
+    "des": "node fuente/servidor.js",
+    "start": "node fuente/servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.0.6",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

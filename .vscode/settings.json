@@ -1,0 +1,5 @@
+{
+      "cSpell.enabled": false,
+      "appService.defaultWebAppToDeploy": "/subscriptions/79044e57-4aa9-486d-8859-05df3e760299/resourceGroups/IoT/providers/Microsoft.Web/sites/RZC",
+      "appService.deploySubpath": ""
+}
