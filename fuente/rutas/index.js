@@ -14,6 +14,14 @@ router.get('/', (req, res) => {
 });
 });
 
+router.get('/privacidad', (req, res) => {
+  res.render('privacidad', { nav: 'Regresar a inicio',
+  webinar1: "", title: "Política de privacidad"
+
+
+});
+});
+
 
 
 module.exports = router;
