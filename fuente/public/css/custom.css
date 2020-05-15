@@ -474,8 +474,22 @@ body {
     }   
 }
 
+/* 
+-----------------------------------------------------------------Privacidad
+
+*/
 
 
+#politica{
+    box-shadow:5px 10px 25px #555;
+    position:relative;
+    z-index:22;
+    box-shadow:5px 10px 25px #555;
+
+
+}
+
+/*  */
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
@@ -500,7 +514,12 @@ header.masthead {
     
 
   }
+.politica{
 
+padding-left: 12%;
+padding-right: 12%;
+
+}
   header.masthead p{
 
 
@@ -551,10 +570,23 @@ header.masthead {
     header.masthead h1 {
       font-size: 2.5rem;
     }
+
+    .politica{
+
+        padding-left: 17%;
+        padding-right: 17%;
+        
+        }
   }
   @media (min-width: 1200px) {
     
-   
+    .politica{
+
+        padding-left: 22%;
+        padding-right: 22%;
+        
+        }
+        
     
     header.masthead h1 {
         
@@ -569,19 +601,8 @@ header.masthead {
 
 
 
- .imagen2{
-    display: none;
- }
- 
- @media only screen and (min-width: 1050px){ 
-    .imagen1{
-      display: none;
-    }
- 
-    .imagen2{
-      display: block;
-    }
- }
+
+
 
  #azul{
 
@@ -662,6 +683,8 @@ button.boton-link:hover{
     text-decoration:underline;
 
 }
+
+
 
 /*
 @media only screen and (max-width:1500px) {
