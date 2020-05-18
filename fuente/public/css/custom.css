@@ -90,6 +90,16 @@ body {
         }
 /* Navbar */
 
+/* Ul */
+
+#obligaciones{
+
+font-family: "SCHUNKr";
+
+}
+
+/* UL */
+
 .bg-dark {
     background: rgb(3,83,141);
     background: radial-gradient(circle, rgba(3,83,141,1) 14%, rgba(0,61,106,1) 82%, rgba(0,61,106,1) 95%);
@@ -538,6 +548,12 @@ padding-right: 12%;
    
   }
 
+#politica h1{
+
+    font-size: 2.1rem;
+    
+}
+
   @media(max-width: 720px){
 
 #contador{
@@ -577,6 +593,11 @@ padding-right: 12%;
         padding-right: 17%;
         
         }
+
+
+        
+
+
   }
   @media (min-width: 1200px) {
     
@@ -599,7 +620,7 @@ padding-right: 12%;
 
 
 
-
+ 
 
 
 
