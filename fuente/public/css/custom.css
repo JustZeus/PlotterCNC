@@ -180,6 +180,59 @@ font-family: "SCHUNKr";
     padding: 50px 10px;
 }
 
+/* Archivo de Webianrs */
+
+header.webinar{
+
+    padding-top: 25rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(71, 66, 78, 0.0) 0%, rgba(0,61,106,.3) 100%), url("../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+
+}
+
+#archivo{
+color:#003d6a ;
+padding-left: 11%;
+padding-right: 11%;
+box-shadow:5px 10px 25px #555;
+position:relative;
+z-index:22;
+box-shadow:5px 10px 25px #555;
+
+
+
+}
+
+.web{
+
+    color:rgb(0,158,224); 
+    font-family: "SCHUNKb";
+    
+
+
+
+}
+
+.web:hover{
+
+
+    color:rgb(0,158,224); 
+    font-family: "SCHUNKb";
+    text-decoration: underline;
+
+}
+
+.img-fluid{
+
+    width: auto;
+}
+
+/*  */
 
 
 .modal-content {
@@ -555,6 +608,18 @@ padding-right: 12%;
 }
 
   @media(max-width: 720px){
+.movil h2{
+
+font-size: 1.7rem;
+
+}
+    
+    #archivo{
+
+        padding-left: 14%;
+        padding-right: 14%;
+
+    }
 
 #contador{
     font-size: 2.5rem;
@@ -574,6 +639,13 @@ padding-right: 12%;
 
   }
   @media (min-width: 992px) {
+      
+    #archivo{
+
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
     header.masthead {
       height: 100vh;
       min-height: 40rem;
@@ -600,7 +672,12 @@ padding-right: 12%;
 
   }
   @media (min-width: 1200px) {
-    
+    #archivo{
+
+        padding-left: 23%;
+        padding-right: 24%;
+
+    }
     .politica{
 
         padding-left: 22%;

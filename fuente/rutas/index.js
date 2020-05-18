@@ -25,6 +25,12 @@ router.get('/privacidad', (req, res) => {
 });
 });
 
+router.get('/webinars', (req, res) => {
+  res.render('webinars', { nav: 'Regresar a inicio',
+  title: "Webinars SCHUNK intec México"
+});
+});
+
 
 
 module.exports = router;
