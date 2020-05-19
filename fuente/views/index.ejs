@@ -10,6 +10,7 @@
     <link rel="icon" href="img/fav.png">
 
     <title>SCHUNK INTEC México</title>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
     <script src="https://kit.fontawesome.com/43bc1f02ff.js" crossorigin="anonymous"></script>
     <!-- Bootstrap core  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -108,7 +109,33 @@
    
   
 
+    <section  id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 pt-5 text-center">
+                    <div class="about2">
+                    <img src="img/sws2.png" class="img-fluid mt-3 pt-2" alt="team">
+                </div>
+                </div>                
+                <div class="col-md-12 col-lg-6 p-5 text-light">
+                    <div class="about">
+                    <h2 >Acerca de Nosotros</h2>
+                    <p>SCHUNK Intec México, una empresa líder en fabricación de sistemas de
+                        sujeción y productos para automatización y robótica. Es un líder tecnológico
+                        que opera a través del mundo con representaciones en más de 50 países. <br> <br>
+                        Su crecimiento se ha basado en la innovación de sus productos que les ha
+                        permitido alcanzar una posición líder en mercados como el europeo.</p>
+                        <div>
+                            <a class="boton-link2" href="/productos">Nuestros productos</a>
+                            </div>
+                    </div>
 
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
 
   <%- include ('partials/webinars.ejs') %>  
@@ -373,7 +400,10 @@
         });
       </script>
 
-
+<script>
+    ScrollReveal().reveal('.about', { delay: 550,  duration: 1100  });
+    ScrollReveal().reveal('.about2', { delay: 750,  duration: 1600  });
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <script>$('body').scrollspy({ target: '#navbarsExampleDefault', offset: 108 })</script>

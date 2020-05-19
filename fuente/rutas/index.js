@@ -31,6 +31,13 @@ router.get('/webinars', (req, res) => {
 });
 });
 
+router.get('/productos', (req, res) => {
+  res.render('productos.ejs', { nav: 'Regresar a inicio',
+  title: "Productos SCHUNK INTEC México"
+});
+});
+
+
 
 
 module.exports = router;

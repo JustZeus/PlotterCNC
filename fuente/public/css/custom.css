@@ -98,6 +98,17 @@ font-family: "SCHUNKr";
 
 }
 
+/* ABOUT */
+
+.about h2{
+
+font-size: 1.7rem;
+
+}
+
+
+/* about */
+
 /* UL */
 
 .bg-dark {
@@ -165,7 +176,10 @@ font-family: "SCHUNKr";
 }
 
 /* Team */
-
+#team {
+    padding: 50px 10px;
+    background: linear-gradient(#005a9b , #003d6a);
+}
 
 /* Video Background */
 
@@ -627,6 +641,12 @@ padding-right: 12%;
 }
 
   @media(max-width: 720px){
+    .about h2{
+
+        font-size: 1.7rem;
+        
+        }
+        
 .movil h2{
 
 font-size: 1.7rem;
@@ -659,6 +679,13 @@ font-size: 1.7rem;
   }
   @media (min-width: 992px) {
       
+    .about h2{
+
+        font-size: 1.8rem;
+        
+        }
+        
+
     #archivo{
 
         padding-left: 20%;
@@ -691,6 +718,12 @@ font-size: 1.7rem;
 
   }
   @media (min-width: 1200px) {
+    .about h2{
+
+        font-size: 2rem;
+        
+        }
+        
     #archivo{
 
         padding-left: 27%;
